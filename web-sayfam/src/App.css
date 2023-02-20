@@ -420,6 +420,7 @@ hr {
 }
 
 .personal-picture-container {
+  margin-top: 5%;
   margin-right: 10%;
   width: 30%;
 }
@@ -1098,6 +1099,8 @@ hr {
   }
   
   .personal-picture-container {
+    margin-top: 0px;
+    margin-bottom: 5%;
     margin-right: 10%;
     width: 30%;
   }

@@ -1,0 +1,2011 @@
+.App {
+  text-align: center;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+
+.page-divider {
+  width: 85%;
+  background-color: #BAB2E7;
+  border: solid 1px #BAB2E7;
+  text-align: center;
+  margin-left: 5.56rem;
+  margin-right: 5.56rem;
+}
+
+
+
+/***********************************Dark Mode************************************************/
+
+#dark {
+  background-color: #424242;
+}
+
+#dark .buttons {
+  color: #cacaca; 
+}
+
+#button-hire-me.dark {
+  border-color: #ADF; 
+  color: #ADF;
+}
+
+#button-hire-me.dark:hover {
+  background-color: #ADF;
+  color: #424242;
+  border-color: #424242;
+}
+
+
+
+
+
+
+#dark .hr-container {
+  color: #ADF;
+}
+
+hr#dark {
+  background-color: #ADF;
+  border-color: #ADF;
+}
+
+.section-personal-headers#dark h2, .section-personal-headers#dark h3  {
+  color: #ffffff;
+}
+
+#dark .content-details {
+  color: #ffffff;
+}
+
+#section-personal-buttons-container.dark a:not(:first-child) {
+  color: #ADF;
+  border-color: #adf;
+}
+
+#section-personal-buttons-container.dark a:not(:first-child):hover {
+  color: #424242;
+  border-color: #424242;
+  background-color: #adf;
+}
+
+#button-hire-me-second.light {
+  color: white;
+  background-color: #3730A3;
+  border: solid 1px #FFFFFF;
+}
+
+#button-hire-me-second.light:hover {
+  color: #3730A3;
+  background-color: #FFFFFF;
+  border: solid 1px #3730A3;
+}
+
+#button-hire-me-second.dark {
+  background-color: #adf;
+  color: #424242;
+  border-color: #424242;
+}
+
+#button-hire-me-second.dark:hover {
+  color: #adf;
+  border-color: #ADF;
+  background-color: #424242;
+}
+
+
+
+
+
+.section-skills h3#dark {
+  color: #ffffff;
+}
+
+.section-skills-container#dark p {
+  color: #cacaca;
+}
+
+
+
+
+.section-profile#dark h2 {
+  color: #ffffff;
+}
+
+.section-profile#dark h3 {
+  color: #ADF;
+}
+
+.section-profile#dark p {
+  color: #FFFFFF;
+}
+
+.profile-contents-right p#dark {
+  color: #cacaca;
+}
+
+
+
+
+
+
+.section-projects#dark h2 {
+  color: #FFFFFF;
+}
+
+.section-projects#dark h3 {
+  color: #ADF;
+}
+
+.section-projects#dark .project-explanation {
+  color: #cacaca;
+}
+
+.section-projects#dark .projects-buttons {
+  color: #ADF;
+  border-color: #adf;
+  background-color: #424242;
+}
+
+
+.section-projects#dark .projects-buttons:hover {
+  color: #424242;
+  border-color: #424242;
+  background-color: #adf;
+}
+
+.section-projects#dark a {
+  color: #ADF;
+}
+
+
+
+
+
+
+.section-hire-me-contents#dark {
+  background-color: #616161;
+}
+
+.section-hire-me-contents#dark .hire-me-content {
+  color: #cacaca;
+}
+
+.section-hire-me-contents#dark a:first-child {
+  color: #cacaca;
+}
+
+.section-hire-me-contents#dark a {
+  color: yellowgreen;
+}
+
+
+.section-hire-me-contents#dark a:last-child {
+  color: #adf;
+}
+
+.section-hire-me-contents#dark .hire-me-mail {
+  color: #DE3163;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************Main CSS*************************/
+
+header {
+  margin: 0 auto;
+  margin-top: 2;
+  width: 85%;
+  padding: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 4rem;  
+}
+
+
+.btn-main {
+  height: 2rem;
+  width: 2rem;
+  background-color: #EEEBFF;
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 0.8rem 0.8rem;
+  font-size: 1.5rem;
+  color: #7B61FF;
+  
+}
+
+.btn-main-container {
+  
+  margin-top: 1rem;
+  float: left;
+  transform: rotate(30deg);
+}
+
+header nav {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; */
+  margin-right: 4%;
+
+  /* width: 85%; */
+  /* height: 15vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  background-color: #FDF5E6; */
+}
+
+.buttons-container {
+  float: right;
+  
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; */
+}
+
+.buttons-container .nav-item {
+  float: left;
+  margin: auto, 0.5rem;
+
+}
+
+#bar {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header .buttons {
+  color: #6B7280;
+  text-decoration: none;
+  /* padding: 1rem 1.5rem; */
+  margin: auto 1rem;
+  margin-right: 2rem;
+}
+
+#button-hire-me {
+  color: #3730A3;
+  padding: 0.8rem 2rem;
+  border: solid 1px #3730A3;
+  border-radius: 0.5rem;
+  margin-right: 2rem;
+}
+
+#button-hire-me:hover {
+  color: white;
+  background-color: #3730A3;
+  border: solid 1px #FFFFFF;
+  transition: 2sn;
+}
+
+
+
+
+
+
+
+
+.section-personal {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 85%;
+  padding: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: 500;
+  align-items: center;
+}
+
+.section-personal-container {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+
+}
+
+.section-personal-container div {
+  margin-top: 0rem;
+}
+
+hr {
+  width: 15%;
+  margin: auto 0;
+  margin-right: 1rem;
+  color: #4338CA;
+  border: solid 1px #4338CA;
+}
+
+.hr-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  color: #4338CA;
+}
+
+.section-personal-headers h2 {
+  font-size: 3.2rem;
+  margin-bottom: 0;
+  color: #1F2937;
+  font-weight: 700;
+}
+
+
+.section-personal-headers h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #1F2937;
+  letter-spacing: 2.5px;
+}
+
+.section-personal {
+  color: #6B7280;
+}
+
+#section-personal-buttons-container {
+  margin-top: 1.5rem;
+}
+
+.github-linkedin-button {
+
+  color: #3730A3;
+  padding: 0.8rem 2rem;
+  border: solid 1px #3730A3;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icons {
+  width: 1rem;
+  height: 1rem;
+  text-align: left;
+}
+
+
+.github-linkedin-button:hover {
+  color: #FFFFFF;
+  background-color: #3730A3;
+  border: solid 1px #FFFFFF;
+  transition: 2sn;
+}
+
+
+#button-hire-me-second {
+  padding: 0.8rem 2rem;
+  color: white;
+  background-color: #3730A3;
+  border: solid 1px #FFFFFF;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+#button-hire-me-second:hover {
+  color: #3730A3;
+  background-color: #FFFFFF;
+  border: solid 1px #3730A3;
+  transition: 2sn;
+}
+
+.personal-picture-container {
+  margin-right: 10%;
+  width: 30%;
+}
+
+.personal-picture-container img {
+  width: 110%;
+  height: 100%;
+  display: block;
+  border-radius: 2rem;
+  margin-right: 5%;
+  border: solid 10px black;
+}
+
+
+
+
+.section-skills {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 90%;
+  padding: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #777777;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.section-skills h3 {
+  margin-top: 5rem;
+  color: #0A0A14;
+  font-size: 4rem;
+}
+
+.section-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  margin-right: 5%;
+}
+
+
+.skills {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+
+
+
+
+
+
+.section-profile {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 85%;
+  padding: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.section-profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+
+}
+
+.profile-contents-left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+  /**/
+}
+
+.profile-content-ans {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.tercih {
+  margin-top: 61.600px;
+}
+
+
+.section-profile h2 {
+  color: #1F2937;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.section-profile h3 {
+  color: #4338CA;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.header-about-me {
+  /* margin-top: 0;
+  margin-bottom: 44px */
+}
+
+.section-profile p {
+  color: #000000;
+  font-size: 1.4rem;
+}
+
+.profile-contents-ques {
+  font-weight: bolder;
+  align-items: flex-start;
+}
+
+
+.profile-contents-right p {
+  color: #6B7280;
+}
+
+.profile-contents-right {
+  text-align: left;
+  width: 50%;
+
+}
+
+
+
+
+
+.section-projects {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 85%;
+  padding: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.section-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-projects-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.section-projects h2 {
+  color: #1F2937;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.section-projects img {
+  width: 18rem;
+  height: 12rem;
+  display: block;
+  border-radius: 1rem;
+}
+
+.section-projects h3 {
+  font-size: 1.8rem;
+  color: #4338CA;
+}
+
+.project-explanation {
+  max-width: 18rem;
+  color: #6B7280;
+  text-align: left;
+}
+
+.projects-buttons {
+  color: #3730A3;
+  background-color: #FFFFFF;
+  border: 1px solid #3730A3;
+  padding: 0.6rem 1.2rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.projects-buttons:hover {
+  color: #FFFFFF;
+  background-color: #3730A3;
+  border: solid 1px #FFFFFF;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #3730A3;
+  margin-top: 1rem;
+  max-width: 18rem;
+  width: 18rem;
+}
+
+.section-projects-container-2:not(:first-child):not(:last-child) button {
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+.section-hire-me {
+  margin: 0 auto;
+  
+  width: 85%;
+  
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  
+}
+
+.section-hire-me-contents {
+  width: 100%;
+  background-color: #F9F9F9;
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+.hire-me-content {
+  text-align: left;
+  font-size: 3rem;
+  color: #1F2937;
+  width: 32rem;
+  max-width: 32rem;
+  margin-top: 6rem;
+  font-weight: bolder;
+}
+
+.section-hire-me-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4rem;
+
+  align-items: center;
+}
+
+.hire-me-buttons {}
+
+.hire-me-buttons a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.hire-me-mail {
+  color: #AF0C48;
+  font-size: 1.6rem;
+}
+
+#youtube {
+  color: #0A0A14;
+}
+
+#github {
+  color: #00AB6B;
+}
+
+#linkedin {
+  color: #0077B5;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+
+  .page-divider {
+    width: 90%;
+    background-color: #BAB2E7;
+    border: solid 1px #BAB2E7;
+    text-align: center;
+    margin-left: 2.56rem;
+    margin-right: 2.56rem;
+  }
+
+
+  header {
+    width: 95%;
+    font-size: 1rem;
+  }
+
+  .btn-main {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+
+  header .buttons {
+    margin: 0 1rem;
+    margin: auto 1.5rem;
+  }
+
+
+
+
+
+
+
+  .section-personal {
+    width: 95%;
+    padding: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+  }
+
+  .section-personal-container {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+
+  }
+
+  .section-personal-container div {
+    margin-top: 0rem;
+    width: 100%;
+  }
+
+  hr {
+    width: 25%;
+    margin: auto 0;
+    margin-right: 1rem;
+    background: #4338CA;
+    ;
+  }
+
+
+  .section-personal-headers h2 {
+    font-size: 2.8rem;
+  }
+
+
+  .section-personal-headers h3 {
+    font-size: 1.8rem;
+  }
+
+
+  .github-linkedin-button {
+    color: #3730A3;
+    padding: 0.5rem 1.5rem;
+    border: solid 1px #3730A3;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+
+  .icons {
+    width: 1rem;
+    height: 1rem;
+    text-align: left;
+  }
+
+
+
+
+  #button-hire-me-second {
+    font-size: 0.8rem;
+  }
+
+  .personal-picture-container {
+    margin-right: 10%;
+    width: 30%;
+  }
+
+
+
+
+
+
+  .section-skills {
+    width: 95%;
+  }
+
+  .section-skills h3 {
+    margin-top: 5rem;
+    color: #0A0A14;
+    font-size: 2.5rem;
+  }
+
+
+  .skills {
+    width: 6rem;
+    height: 6rem;
+
+  }
+
+
+
+
+
+
+
+  .section-profile {
+    width: 95%;
+  }
+
+
+
+
+  .section-profile h2 {
+    font-size: 2.5rem;
+  }
+
+  .section-profile h3 {
+    font-size: 2rem;
+  }
+
+
+  .section-profile p {
+
+    font-size: 1.2rem;
+  }
+
+
+  .profile-contents-right {
+    text-align: left;
+    width: 40%;
+  }
+
+
+
+
+
+  .section-projects {
+    width: 95%;
+  }
+
+  .section-projects h2 {
+    font-size: 2.5rem;
+  }
+
+  .section-projects img {
+    width: 15rem;
+    height: 9rem;
+  }
+
+  .section-projects h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-explanation {
+    max-width: 15rem;
+    color: #6B7280;
+    text-align: left;
+    max-height: 20rem;
+  }
+
+  .projects-buttons {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-right: 0.8rem;
+    margin-top: 1.5rem;
+  }
+
+
+  .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #3730A3;
+    margin-top: 1rem;
+    max-width: 15rem;
+    width: 15rem;
+  }
+
+
+
+
+
+
+
+  .section-hire-me {
+    width: 95%;
+  }
+
+  .hire-me-content {
+    text-align: left;
+    font-size: 2.5rem;
+    color: #1F2937;
+    width: 32rem;
+    max-width: 32rem;
+    margin-top: 6rem;
+    font-weight: bolder;
+  }
+
+  .section-hire-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+    align-items: center;
+  }
+
+  .hire-me-buttons {}
+
+  .hire-me-buttons a {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  .hire-me-mail {
+    color: #AF0C48;
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 900px) {
+  
+  /*Navbar Section*/
+
+  header {
+    margin-bottom: 0;
+    background-color: white;
+    color: #6B7280;
+  }
+  
+  
+
+  .btn-main-container {
+    float: none;
+    text-align: left;
+    transform: rotate(0);
+    margin-top: 2rem;
+  }
+  
+  .btn-main {
+     
+
+  }
+
+  .buttons-container {
+    float: none;
+    text-align: right;
+    margin-top: 3rem;
+  }
+
+  .buttons-container .buttons {
+    font-size: 2rem;
+    padding-left: 0;
+    margin-right: 0;
+
+  }
+
+  .buttons-container .nav-item {
+    float: none;
+    text-align: right;
+  }
+
+  #bar {
+    display: block;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    font-size: 3rem;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+
+  #button-hire-me {
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    color: #6B7280;
+    /* padding: 1rem 1.5rem; */
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #button-hire-me:hover {
+    border: none;
+    background: none;
+    color: #6B7280;
+    padding: none;
+  }
+
+  #button-hire-me.dark {
+    color: #cacaca; 
+  }
+
+  #button-hire-me.dark:hover {
+    border: none;
+    color: #cacaca; 
+    background: none;
+  }
+
+  nav.responsive li:not(:last-child) {
+    display: none;
+  }
+
+  /*Personal Section*/
+
+  .section-personal {
+    width: 90%;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+  }
+  
+  .section-personal-container {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    width: 60%;
+  
+  }
+  
+  .section-personal-container div {
+    margin-top: 0rem;
+  }
+  
+  hr {
+    width: 10%;
+  }
+  
+  
+  .section-personal-headers h2 {
+    font-size: 2.5rem;
+  }
+  
+  
+  .section-personal-headers h3 {
+    font-size: 1.5rem;
+  }
+  
+  
+  .github-linkedin-button {
+    padding: 0.5rem 1.8rem;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    align-items: center;
+  }
+  
+  .icons {
+    width: 1rem;
+    height: 1rem;
+    text-align: left;
+  }
+  
+  
+  #button-hire-me-second {
+    padding: 0.5rem 1.8rem;
+    font-size: 1rem;
+  }
+  
+  .personal-picture-container {
+    margin-right: 10%;
+    width: 30%;
+  }
+  
+  .personal-picture-container img {
+    width: 125%;
+    height: 100%;
+    margin-right: 2%;
+  }
+
+
+  /*Section Skills*/
+  
+  .section-skills {
+
+    width: 90%;
+    padding: 25px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  
+  .section-skills h3 {
+    margin-top: 5rem;
+    color: #0A0A14;
+    font-size: 3rem;
+  }
+  
+  .section-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-right: 5%;
+  }
+
+  .section-skills-container div {
+    width: 30%;
+  }
+
+  .section-skills-container p {
+    font-size: 1.5rem;
+  }
+  
+  
+  .skills {
+    width: 9rem;
+    height: 9rem;
+  }
+
+
+  /*Section Profile*/ 
+  
+  .section-profile {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  
+  .section-profile h2 {
+    font-size: 3rem;
+  }
+  
+  .section-profile h3 {
+    font-size: 2rem;
+  }
+
+  
+  .section-profile p {
+    color: #000000;
+    font-size: 1rem;
+  }
+  
+
+  
+
+  .profile-contents-right {
+    text-align: left;
+    width: 40%;
+  
+  }
+  
+  /*Section Projects*/
+
+  .section-projects {
+    width: 85%;
+  }
+  
+  
+  .section-projects-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  
+  .section-projects h2 {
+    font-size: 3rem;
+  }
+  
+  .section-projects img {
+    width: 16rem;
+    height: 9rem;
+  }
+  
+  .section-projects h3 {
+    font-size: 1.6rem;
+  }
+  
+  .project-explanation {
+    max-width: 16rem;
+  }
+  
+  .projects-buttons {
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 16rem;
+    width: 16rem;
+  }
+
+  .section-projects-container-2:last-child {
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  
+  /*Section Hire-Me*/
+
+  .section-hire-me {    
+    width: 85%;
+
+    
+  }
+  
+  .hire-me-content {
+
+    font-size: 2rem;
+    width: 25rem;
+    max-width: 25rem;
+
+
+  }
+    
+  .hire-me-buttons a {
+    margin-left: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  .hire-me-mail {
+    font-size: 1.2rem;
+  }
+
+
+}
+
+
+
+@media (max-width: 740px) {
+  .github-linkedin-button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin-left: 4rem;
+    float: left;
+  }
+  
+  .icons {
+    width: 1rem;
+    height: 1rem;
+    text-align: left;
+  }
+  
+  
+  #button-hire-me-second {
+    padding: 0.5rem 1.8rem;
+    font-size: 1rem;
+    float: left;
+
+  }
+
+
+  #personal-responsive-lb {
+    margin-top: 25px;
+  }
+}
+
+
+
+
+
+
+
+/*660*/ 
+
+@media (max-width: 660px) {
+
+  .page-divider {
+    width: 85%;
+    background-color: #BAB2E7;
+    border: solid 1px #BAB2E7;
+    text-align: center;
+    margin-left: 2.56rem;
+    margin-right: 2.56rem;
+  }
+  
+  /*Navbar Section*/
+
+  #bar {
+    display: block;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+  .nav-item {
+    margin-right: 4%;
+  }
+
+  /*Personal Section*/
+
+  .section-personal {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+  }
+  
+  .section-personal-container {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    width: 100%;
+  
+  }
+  
+  
+  hr {
+    width: 20%;
+  }
+  
+  
+  .section-personal-headers h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  
+  .section-personal-headers h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: normal;
+  }
+  
+
+  .content-details {
+    text-align: center;
+  }
+  
+  #section-personal-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .github-linkedin-button {
+    padding: 3rem 5rem;
+    font-size: 1.5rem;
+    margin-right: 64px;
+    align-items: center;
+    float: none;
+    width: 6rem;
+    text-align: center;
+  }
+
+  
+  .icons {
+    width: 1rem;
+    height: 1rem;
+    text-align: left;
+  }
+  
+  
+  #button-hire-me-second {
+    padding: 3rem 5rem;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    width: 6rem;
+    text-align: center;
+  }
+
+  #personal-responsive-lb {
+    float: none;
+    margin-top: none;
+  }
+
+ 
+  
+  .personal-picture-container {
+    display: none;
+  }
+  
+  .personal-picture-container img {
+    display: none;
+  }
+
+
+  /*Section Skills*/
+  
+  .section-skills {
+
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  
+  .section-skills h3 {
+    margin-top: 5rem;
+    color: #0A0A14;
+    font-size: 2rem;
+  }
+  
+  .section-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-right: 5%;
+  }
+
+  .section-skills-container div {
+    width: 25%;
+    margin-right: 10%;
+  }
+
+  .section-skills-container p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
+  .skills {
+    width: 9rem;
+    height: 9rem;
+  }
+
+
+  /*Section Profile*/ 
+  
+  .section-profile {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  
+  .section-profile h2 {
+    font-size: 2rem;
+  }
+  
+  .section-profile h3 {
+    font-size: 1.5rem;
+  }
+
+  
+  .section-profile p {
+    color: #000000;
+    font-size: 1rem;
+  }
+
+  .profile-down {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+
+  
+
+  .profile-contents-right {
+    text-align: left;
+    width: 100%;
+  
+  }
+  
+  /*Section Projects*/
+
+  .section-projects {
+    width: 85%;
+  }
+
+  .section-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .section-projects-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 10vh;
+  }
+  
+
+
+  .section-projects h2 {
+    font-size: 2rem;
+  }
+  
+  .section-projects img {
+    width: 20rem;
+    height: 15rem;
+  }
+  
+  .section-projects h3 {
+    font-size: 1.6rem;
+  }
+  
+  .project-explanation {
+    max-width: 20rem;
+  }
+  
+  .projects-buttons {
+    padding: 0.6rem 1.2rem;
+  }
+  
+  .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 20rem;
+    width: 20rem;
+  }
+
+  .section-projects-container-2:last-child {
+    margin-top: 10vh;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  
+  /*Section Hire-Me*/
+
+  .section-hire-me {    
+    width: 85%;
+
+    
+  }
+  
+  .hire-me-content {
+
+    font-size: 1.5rem;
+    width: 85%;
+    max-width: 85%;
+    margin-top: 3rem;
+  }
+
+  .section-hire-me-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+  }
+    
+  .hire-me-buttons a {
+    margin-left: 0.7rem;
+    font-size: 1rem;
+  }
+  
+  .hire-me-mail {
+    font-size: 1rem;
+  }
+
+
+}
+
+
+/*********************************************************************/
+
+
+@media (max-width: 380px) {
+  
+  /*Navbar Section*/
+
+  .nav-item {
+    margin-right: 10%;
+  }
+
+  /*Personal Section*/
+
+  .section-personal {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .section-personal-container {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    width: 100%;
+  
+  }
+
+  .hr-container p {
+    font-size: 0.8rem;
+  }
+  
+  .section-personal-headers h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    /* margin-right: 3.2rem; */
+  }
+  
+  
+  .section-personal-headers h3 {
+    font-size: 0.8rem;
+    text-align: center;
+    letter-spacing: normal;
+    /* margin-right: 3.2rem; */
+  }
+  
+
+  .content-details {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-right: 10px;
+  }
+  
+
+  .github-linkedin-button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    margin-right: 64px;
+    align-items: center;
+    float: none;
+    width: 6rem;
+    text-align: center;
+  }
+
+  
+   #button-hire-me-second {
+    padding: 3rem 5rem;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    width: 6rem;
+    text-align: center;
+  }
+
+ 
+
+
+  /*Section Skills*/
+    
+  .section-skills {
+
+    width: 95%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  
+  .section-skills h3 {
+    font-size: 1.5rem;
+
+  }
+
+  .section-skills-container div {
+    width: 30%;
+    margin-right: 6%;
+  }
+
+  .section-skills p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  
+  img.skills {
+    width: 5rem;
+    height: 5rem;
+  }
+
+
+  /*Section Profile*/ 
+
+  .section-profile h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-profile h3 {
+    font-size: 1rem;
+  }
+
+  .section-profile-container p {
+    font-size: 0.8rem;
+  }
+
+  .profile-contents-left {
+    width: 435px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  div.profile-content-ans {
+    margin-left: 0px;
+    margin-right: 42%;
+  }
+  
+
+  
+  .section-profile {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+
+  p.profile-down {
+    margin-top: 16px;
+    padding-top: 16px;
+    margin-bottom: 0px;
+  }
+  
+
+  
+
+  .profile-contents-right {
+    text-align: left;
+    width: 100%;
+  
+  }
+  
+  
+  /*Section Projects*/
+
+  .section-projects {
+    width: 85%;
+  }
+
+  .section-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .section-projects-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 10vh;
+  }
+  
+
+
+  .section-projects h2 {
+    font-size: 1.5rem;
+  }
+  
+  .section-projects img {
+    width: 13rem;
+    height: 10rem;
+  }
+  
+  .section-projects h3 {
+    font-size: 1.2rem;
+  }
+  
+  .project-explanation {
+    max-width: 13rem;
+  }
+  
+  .projects-buttons {
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 13rem;
+    width: 13rem;
+  }
+
+  .section-projects-container-2:last-child {
+    margin-top: 10vh;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  
+  /*Section Hire-Me*/
+
+  .section-hire-me {    
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+  }
+  
+  .hire-me-content {
+    margin-left: 0px;
+    font-size: 1.2rem;
+    width: 85%;
+    max-width: 85%;
+    margin-top: 3rem;
+  }
+
+  .section-hire-me-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+  }
+    
+  .hire-me-buttons a {
+    margin-left: 0.7rem;
+    font-size: 0.8rem;
+  }
+  
+  .hire-me-mail {
+    font-size: 0.8rem;
+  }
+
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+  .page-divider {
+    width: 90%;
+    background-color: #BAB2E7;
+    border: solid 1px #BAB2E7;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  
+  /*Section Skills*/
+  
+  .section-skills {
+
+    width: 95%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  
+
+  .section-skills-container div {
+    width: 30%;
+    margin-right: 8%;
+  }
+
+  .section-skills-container p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
+  .skills {
+    width: 8rem;
+    height: 8rem;
+  }
+
+
+  /*Section Profile*/ 
+
+  .profile-contents-left {
+    width: 435px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .profile-content-ans {
+    margin-left: 0px;
+    margin-right: 25%;
+  }
+  
+
+  
+  .section-profile {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+
+  .profile-down {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+
+  
+
+  .profile-contents-right {
+    text-align: left;
+    width: 100%;
+  
+  }
+}
+
+@media (max-width: 740px) {
+  .github-linkedin-button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin-left: 4rem;
+    float: left;
+  }
+  
+  .icons {
+    width: 1rem;
+    height: 1rem;
+    text-align: left;
+  }
+  
+  
+  #button-hire-me-second {
+    padding: 0.5rem 1.8rem;
+    font-size: 1rem;
+    float: left;
+
+  }
+
+
+  #personal-responsive-lb {
+    margin-top: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -17,7 +17,7 @@ export default function HeaderComponent(props) {
     const { handleLanguage, language } = useContext(LanguageContext);
     const { handleTheme, theme } = useContext(ThemeContext);
 
-    const [responsive, setResponsive] = useState("responsive")
+    const [responsive, setResponsive] = useState("")
 
     /* responsive bar */
 

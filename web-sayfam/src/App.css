@@ -1975,7 +1975,11 @@ hr {
 
 
 
-
+@media (min-width: 1100px) {
+  header {
+    margin-left: 6%;
+  }
+}
 
 
 

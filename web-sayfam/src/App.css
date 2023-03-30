@@ -23,11 +23,11 @@
 }
 
 #dark .buttons {
-  color: #cacaca; 
+  color: #cacaca;
 }
 
 #button-hire-me.dark {
-  border-color: #ADF; 
+  border-color: #ADF;
   color: #ADF;
 }
 
@@ -51,7 +51,8 @@ hr#dark {
   border-color: #ADF;
 }
 
-.section-personal-headers#dark h2, .section-personal-headers#dark h3  {
+.section-personal-headers#dark h2,
+.section-personal-headers#dark h3 {
   color: #ffffff;
 }
 
@@ -216,7 +217,7 @@ header {
   font-weight: 500;
   font-size: 1.2rem;
   line-height: 1.8rem;
-  margin-bottom: 4rem;  
+  margin-bottom: 4rem;
 }
 
 
@@ -229,11 +230,11 @@ header {
   padding: 0.8rem 0.8rem;
   font-size: 1.5rem;
   color: #7B61FF;
-  
+
 }
 
 .btn-main-container {
-  
+
   margin-top: 1rem;
   float: left;
   transform: rotate(30deg);
@@ -257,7 +258,7 @@ header nav {
 
 .buttons-container {
   float: right;
-  
+
   /* display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -420,18 +421,19 @@ hr {
 }
 
 .personal-picture-container {
-  margin-top: 5%;
-  margin-right: 10%;
+  margin-top: 0;
+  margin-right: 15%;
   width: 30%;
+  height: 320px;
 }
 
 .personal-picture-container img {
-  width: 110%;
-  height: 100%;
+  margin-top: 40px;
+  width: 370px;
+  margin-left: 30%;
+  border-radius: 2%;
   display: block;
-  border-radius: 2rem;
   margin-right: 5%;
-  border: solid 10px black;
 }
 
 
@@ -640,12 +642,12 @@ hr {
 
 .section-hire-me {
   margin: 0 auto;
-  
+
   width: 85%;
-  
+
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  
+
 }
 
 .section-hire-me-contents {
@@ -701,7 +703,7 @@ hr {
 
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1160px) {
 
 
   .page-divider {
@@ -731,7 +733,9 @@ hr {
   }
 
 
-
+  /* .buttons-container {
+    margin-right: -2%;
+  } */
 
 
 
@@ -805,10 +809,15 @@ hr {
   }
 
   .personal-picture-container {
-    margin-right: 10%;
+    margin-right: 22%;
     width: 30%;
+    margin-bottom: 10%;
   }
 
+  .personal-picture-container img {
+    width: 390px;
+    height: 272px;
+  }
 
 
 
@@ -955,7 +964,7 @@ hr {
 
 
 @media (max-width: 900px) {
-  
+
   /*Navbar Section*/
 
   header {
@@ -963,8 +972,8 @@ hr {
     background-color: white;
     color: #6B7280;
   }
-  
-  
+
+
 
   .btn-main-container {
     float: none;
@@ -972,10 +981,9 @@ hr {
     transform: rotate(0);
     margin-top: 2rem;
   }
-  
-  .btn-main {
-     
 
+  .btn-main {
+    margin-left: 2%;
   }
 
   .buttons-container {
@@ -1025,12 +1033,12 @@ hr {
   }
 
   #button-hire-me.dark {
-    color: #cacaca; 
+    color: #cacaca;
   }
 
   #button-hire-me.dark:hover {
     border: none;
-    color: #cacaca; 
+    color: #cacaca;
     background: none;
   }
 
@@ -1041,79 +1049,80 @@ hr {
   /*Personal Section*/
 
   .section-personal {
+    margin-top: 0;
+    padding-top: 0;
     width: 90%;
-    padding: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     font-weight: 500;
     align-items: center;
   }
-  
+
   .section-personal-container {
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    
+
     flex-direction: column;
     width: 60%;
-  
+
   }
-  
+
   .section-personal-container div {
     margin-top: 0rem;
   }
-  
+
   hr {
     width: 10%;
   }
-  
-  
+
+
   .section-personal-headers h2 {
     font-size: 2.5rem;
   }
-  
-  
+
+
   .section-personal-headers h3 {
     font-size: 1.5rem;
   }
-  
-  
+
+
   .github-linkedin-button {
     padding: 0.5rem 1.8rem;
     font-size: 0.8rem;
     margin-left: 1rem;
     align-items: center;
   }
-  
+
   .icons {
     width: 1rem;
     height: 1rem;
     text-align: left;
   }
-  
-  
+
+
   #button-hire-me-second {
     padding: 0.5rem 1.8rem;
     font-size: 1rem;
   }
-  
+
   .personal-picture-container {
     margin-top: 0px;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     margin-right: 10%;
     width: 30%;
   }
-  
+
   .personal-picture-container img {
-    width: 125%;
-    height: 100%;
-    margin-right: 2%;
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
   }
 
 
   /*Section Skills*/
-  
+
   .section-skills {
 
     width: 90%;
@@ -1122,13 +1131,13 @@ hr {
     font-weight: 500;
     line-height: 150%;
   }
-  
+
   .section-skills h3 {
     margin-top: 5rem;
     color: #0A0A14;
     font-size: 3rem;
   }
-  
+
   .section-skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -1144,52 +1153,52 @@ hr {
   .section-skills-container p {
     font-size: 1.5rem;
   }
-  
-  
+
+
   .skills {
     width: 9rem;
     height: 9rem;
   }
 
 
-  /*Section Profile*/ 
-  
+  /*Section Profile*/
+
   .section-profile {
     margin: 0 auto;
     width: 90%;
   }
-  
-  
+
+
   .section-profile h2 {
     font-size: 3rem;
   }
-  
+
   .section-profile h3 {
     font-size: 2rem;
   }
 
-  
+
   .section-profile p {
     color: #000000;
     font-size: 1rem;
   }
-  
 
-  
+
+
 
   .profile-contents-right {
     text-align: left;
     width: 40%;
-  
+
   }
-  
+
   /*Section Projects*/
 
   .section-projects {
     width: 85%;
   }
-  
-  
+
+
   .section-projects-container-2 {
     display: flex;
     flex-wrap: wrap;
@@ -1197,28 +1206,28 @@ hr {
     justify-content: left;
     align-items: flex-start;
   }
-  
+
   .section-projects h2 {
     font-size: 3rem;
   }
-  
+
   .section-projects img {
     width: 16rem;
     height: 9rem;
   }
-  
+
   .section-projects h3 {
     font-size: 1.6rem;
   }
-  
+
   .project-explanation {
     max-width: 16rem;
   }
-  
+
   .projects-buttons {
     padding: 0.4rem 0.8rem;
   }
-  
+
   .project-links {
     display: flex;
     flex-wrap: wrap;
@@ -1231,15 +1240,15 @@ hr {
     margin: 0 auto;
     margin-top: 3rem;
   }
-  
+
   /*Section Hire-Me*/
 
-  .section-hire-me {    
+  .section-hire-me {
     width: 85%;
 
-    
+
   }
-  
+
   .hire-me-content {
 
     font-size: 2rem;
@@ -1248,12 +1257,12 @@ hr {
 
 
   }
-    
+
   .hire-me-buttons a {
     margin-left: 0.8rem;
     font-size: 1rem;
   }
-  
+
   .hire-me-mail {
     font-size: 1.2rem;
   }
@@ -1270,14 +1279,14 @@ hr {
     margin-left: 4rem;
     float: left;
   }
-  
+
   .icons {
     width: 1rem;
     height: 1rem;
     text-align: left;
   }
-  
-  
+
+
   #button-hire-me-second {
     padding: 0.5rem 1.8rem;
     font-size: 1rem;
@@ -1297,7 +1306,7 @@ hr {
 
 
 
-/*660*/ 
+/*660*/
 
 @media (max-width: 660px) {
 
@@ -1309,7 +1318,7 @@ hr {
     margin-left: 2.56rem;
     margin-right: 2.56rem;
   }
-  
+
   /*Navbar Section*/
 
   #bar {
@@ -1325,6 +1334,10 @@ hr {
     margin-right: 4%;
   }
 
+  .btn-main {
+    margin-left: 0;
+  }
+
   /*Personal Section*/
 
   .section-personal {
@@ -1335,40 +1348,40 @@ hr {
     font-weight: 500;
     align-items: center;
   }
-  
+
   .section-personal-container {
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    
+
     flex-direction: column;
     width: 100%;
-  
+
   }
-  
-  
+
+
   hr {
     width: 20%;
   }
-  
-  
+
+
   .section-personal-headers h2 {
     font-size: 1.8rem;
     text-align: center;
   }
-  
-  
+
+
   .section-personal-headers h3 {
     font-size: 1.4rem;
     text-align: center;
     letter-spacing: normal;
   }
-  
+
 
   .content-details {
     text-align: center;
   }
-  
+
   #section-personal-buttons-container {
     display: flex;
     flex-wrap: wrap;
@@ -1387,14 +1400,14 @@ hr {
     text-align: center;
   }
 
-  
+
   .icons {
     width: 1rem;
     height: 1rem;
     text-align: left;
   }
-  
-  
+
+
   #button-hire-me-second {
     padding: 3rem 5rem;
     font-size: 1.5rem;
@@ -1408,19 +1421,19 @@ hr {
     margin-top: none;
   }
 
- 
-  
+
+
   .personal-picture-container {
     display: none;
   }
-  
+
   .personal-picture-container img {
     display: none;
   }
 
 
   /*Section Skills*/
-  
+
   .section-skills {
 
     width: 90%;
@@ -1428,13 +1441,13 @@ hr {
     font-weight: 500;
     line-height: 150%;
   }
-  
+
   .section-skills h3 {
     margin-top: 5rem;
     color: #0A0A14;
     font-size: 2rem;
   }
-  
+
   .section-skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -1452,31 +1465,31 @@ hr {
     font-size: 1rem;
     text-align: center;
   }
-  
-  
+
+
   .skills {
     width: 9rem;
     height: 9rem;
   }
 
 
-  /*Section Profile*/ 
-  
+  /*Section Profile*/
+
   .section-profile {
     margin: 0 auto;
     width: 90%;
   }
-  
-  
+
+
   .section-profile h2 {
     font-size: 2rem;
   }
-  
+
   .section-profile h3 {
     font-size: 1.5rem;
   }
 
-  
+
   .section-profile p {
     color: #000000;
     font-size: 1rem;
@@ -1487,16 +1500,16 @@ hr {
     padding-top: 10px;
     margin-bottom: 0px;
   }
-  
 
-  
+
+
 
   .profile-contents-right {
     text-align: left;
     width: 100%;
-  
+
   }
-  
+
   /*Section Projects*/
 
   .section-projects {
@@ -1518,30 +1531,30 @@ hr {
     justify-content: left;
     margin-top: 10vh;
   }
-  
+
 
 
   .section-projects h2 {
     font-size: 2rem;
   }
-  
+
   .section-projects img {
     width: 20rem;
     height: 15rem;
   }
-  
+
   .section-projects h3 {
     font-size: 1.6rem;
   }
-  
+
   .project-explanation {
     max-width: 20rem;
   }
-  
+
   .projects-buttons {
     padding: 0.6rem 1.2rem;
   }
-  
+
   .project-links {
     display: flex;
     flex-wrap: wrap;
@@ -1556,15 +1569,15 @@ hr {
     margin-right: 0;
   }
 
-  
+
   /*Section Hire-Me*/
 
-  .section-hire-me {    
+  .section-hire-me {
     width: 85%;
 
-    
+
   }
-  
+
   .hire-me-content {
 
     font-size: 1.5rem;
@@ -1582,12 +1595,12 @@ hr {
     align-items: center;
     width: 85%;
   }
-    
+
   .hire-me-buttons a {
     margin-left: 0.7rem;
     font-size: 1rem;
   }
-  
+
   .hire-me-mail {
     font-size: 1rem;
   }
@@ -1600,11 +1613,15 @@ hr {
 
 
 @media (max-width: 380px) {
-  
+
   /*Navbar Section*/
 
   .nav-item {
     margin-right: 10%;
+  }
+
+  .btn-main {
+    margin-left: 0;
   }
 
   /*Personal Section*/
@@ -1618,42 +1635,42 @@ hr {
     align-items: center;
     padding-left: 10px;
   }
-  
+
   .section-personal-container {
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    
+
     flex-direction: column;
     width: 100%;
-  
+
   }
 
   .hr-container p {
     font-size: 0.8rem;
   }
-  
+
   .section-personal-headers h2 {
     font-size: 1.2rem;
     text-align: center;
     /* margin-right: 3.2rem; */
   }
-  
-  
+
+
   .section-personal-headers h3 {
     font-size: 0.8rem;
     text-align: center;
     letter-spacing: normal;
     /* margin-right: 3.2rem; */
   }
-  
+
 
   .content-details {
     text-align: center;
     font-size: 0.8rem;
     padding-right: 10px;
   }
-  
+
 
   .github-linkedin-button {
     padding: 1rem 1.5rem;
@@ -1665,8 +1682,8 @@ hr {
     text-align: center;
   }
 
-  
-   #button-hire-me-second {
+
+  #button-hire-me-second {
     padding: 3rem 5rem;
     font-size: 1rem;
     margin-bottom: 25px;
@@ -1674,11 +1691,11 @@ hr {
     text-align: center;
   }
 
- 
+
 
 
   /*Section Skills*/
-    
+
   .section-skills {
 
     width: 95%;
@@ -1686,7 +1703,7 @@ hr {
     font-weight: 500;
     line-height: 150%;
   }
-  
+
   .section-skills h3 {
     font-size: 1.5rem;
 
@@ -1701,15 +1718,15 @@ hr {
     font-size: 0.8rem;
     text-align: center;
   }
-  
-  
+
+
   img.skills {
     width: 5rem;
     height: 5rem;
   }
 
 
-  /*Section Profile*/ 
+  /*Section Profile*/
 
   .section-profile h2 {
     font-size: 1.5rem;
@@ -1734,31 +1751,31 @@ hr {
     margin-left: 0px;
     margin-right: 42%;
   }
-  
 
-  
+
+
   .section-profile {
     margin: 0 auto;
     width: 90%;
   }
-  
+
 
   p.profile-down {
     margin-top: 16px;
     padding-top: 16px;
     margin-bottom: 0px;
   }
-  
 
-  
+
+
 
   .profile-contents-right {
     text-align: left;
     width: 100%;
-  
+
   }
-  
-  
+
+
   /*Section Projects*/
 
   .section-projects {
@@ -1780,30 +1797,30 @@ hr {
     justify-content: left;
     margin-top: 10vh;
   }
-  
+
 
 
   .section-projects h2 {
     font-size: 1.5rem;
   }
-  
+
   .section-projects img {
     width: 13rem;
     height: 10rem;
   }
-  
+
   .section-projects h3 {
     font-size: 1.2rem;
   }
-  
+
   .project-explanation {
     max-width: 13rem;
   }
-  
+
   .projects-buttons {
     padding: 0.4rem 0.8rem;
   }
-  
+
   .project-links {
     display: flex;
     flex-wrap: wrap;
@@ -1818,18 +1835,18 @@ hr {
     margin-right: 0;
   }
 
-  
+
   /*Section Hire-Me*/
 
-  .section-hire-me {    
+  .section-hire-me {
     width: 85%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    
+
   }
-  
+
   .hire-me-content {
     margin-left: 0px;
     font-size: 1.2rem;
@@ -1847,12 +1864,12 @@ hr {
     align-items: center;
     width: 85%;
   }
-    
+
   .hire-me-buttons a {
     margin-left: 0.7rem;
     font-size: 0.8rem;
   }
-  
+
   .hire-me-mail {
     font-size: 0.8rem;
   }
@@ -1875,9 +1892,9 @@ hr {
     margin-right: 1rem;
   }
 
-  
+
   /*Section Skills*/
-  
+
   .section-skills {
 
     width: 95%;
@@ -1885,7 +1902,7 @@ hr {
     font-weight: 500;
     line-height: 150%;
   }
-  
+
 
   .section-skills-container div {
     width: 30%;
@@ -1896,15 +1913,15 @@ hr {
     font-size: 1rem;
     text-align: center;
   }
-  
-  
+
+
   .skills {
     width: 8rem;
     height: 8rem;
   }
 
 
-  /*Section Profile*/ 
+  /*Section Profile*/
 
   .profile-contents-left {
     width: 435px;
@@ -1917,46 +1934,51 @@ hr {
     margin-left: 0px;
     margin-right: 25%;
   }
-  
 
-  
+
+
   .section-profile {
     margin: 0 auto;
     width: 90%;
   }
-  
+
 
   .profile-down {
     margin-top: 10px;
     padding-top: 10px;
     margin-bottom: 0px;
   }
-  
 
-  
+
+
 
   .profile-contents-right {
     text-align: left;
     width: 100%;
-  
+
   }
 }
 
 @media (max-width: 740px) {
+
+  .btn-main {
+    margin-left: 0;
+  }
+
   .github-linkedin-button {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     margin-left: 4rem;
     float: left;
   }
-  
+
   .icons {
     width: 1rem;
     height: 1rem;
     text-align: left;
   }
-  
-  
+
+
   #button-hire-me-second {
     padding: 0.5rem 1.8rem;
     font-size: 1rem;
@@ -1975,12 +1997,11 @@ hr {
 
 
 
-@media (min-width: 1100px) {
+@media (min-width: 1160px) {
   header {
     margin-left: 6%;
   }
 }
-
 
 
 

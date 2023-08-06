@@ -27,7 +27,7 @@ export const dataProjects = [
         projectRelatedTopics2: "css",
         projectRelatedTopics3: "javascript",
         projectGithub: "https://github.com/erhanydin/FSWeb-S3-Challenge",
-        projectWiewSite: "https://ea-daily.vercel.app/"
+        projectWiewSite: "https://ea-restaurant.vercel.app/"
     }
 ]
 

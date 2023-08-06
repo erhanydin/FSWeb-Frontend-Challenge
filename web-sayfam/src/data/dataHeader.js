@@ -11,7 +11,7 @@ export const dataHeader = {
     contentButtonHireMe: "Hire Me",
     contentButtonGithub: "Github",
     contentButtonLinkedin: "Upwork",
-    contentMainImg: require("../images/cv.png")
+    contentMainImg: require("../images/cv.png"),
 }
 
 export const dataHeaderTr = {
